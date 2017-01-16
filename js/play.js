@@ -54,7 +54,7 @@ var playState = {
     },
 
     trap: function (sprite, Floor) {
-        var tween = game.add.tween(Floor).to( { kill: true }, 1500, Phaser.Easing.Linear.None, true);
+        var tween = game.add.tween(Floor).to( { kill: true }, 1000, Phaser.Easing.Linear.None, true);
         tween.onComplete.add(function () {   Floor.destroy();  });
     },
 
@@ -104,6 +104,13 @@ var playState = {
             }
         }
 
+        if (this.swipe.DIRECTION_UP.isDown) {
+            worldScale += 0.05;
+        }
+        else if (this.swipe.DIRECTION_UP.isDown) {
+            worldScale -= 0.05;
+        }
+
         if (this.checkOverlap(sprite, Floor))
         {
             //
@@ -119,6 +126,11 @@ var playState = {
         }
 
 
+    },
+
+    render: function () {
+        game.time.advancedTiming = true;
+        game.debug.text(game.time.fps, 10, 15, "#00ff00");
     }
 
 };

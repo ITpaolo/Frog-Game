@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85cb67a5-eef1-432b-b56e-09fb0159ba5b" name="Default" comment="" />
+    <list default="true" id="85cb67a5-eef1-432b-b56e-09fb0159ba5b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/game.js" afterPath="$PROJECT_DIR$/js/game.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/play.js" afterPath="$PROJECT_DIR$/js/play.js" />
+    </list>
     <ignored path="MobileGameTest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -34,18 +39,8 @@
       <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gameover.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/gameover.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="306">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -71,11 +66,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="gameover.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/gameover.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" selection-start-line="2" selection-start-column="8" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="play.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/play.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-901">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="819">
+              <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -94,7 +99,7 @@
       <file leaf-file-name="map.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
+            <state relative-caret-position="660">
               <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
               <folding />
             </state>
@@ -113,19 +118,22 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/gameover.js" />
         <option value="$PROJECT_DIR$/js/pausemenu.js" />
         <option value="$PROJECT_DIR$/js/win.js" />
         <option value="$PROJECT_DIR$/js/load.js" />
         <option value="$PROJECT_DIR$/js/boot.js" />
         <option value="$PROJECT_DIR$/map.json" />
-        <option value="$PROJECT_DIR$/js/game.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/play.js" />
         <option value="$PROJECT_DIR$/js/menu.js" />
+        <option value="$PROJECT_DIR$/js/game.js" />
+        <option value="$PROJECT_DIR$/js/gameover.js" />
+        <option value="$PROJECT_DIR$/js/play.js" />
       </list>
     </option>
   </component>
@@ -138,7 +146,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1914" />
-    <option name="y" value="126" />
+    <option name="y" value="115" />
     <option name="width" value="1936" />
     <option name="height" value="1152" />
   </component>
@@ -167,48 +175,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MobileGameTest" />
+              <option name="myItemId" value="Frog-Game" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MobileGameTest" />
+              <option name="myItemId" value="Frog-Game" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MobileGameTest" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MobileGameTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MobileGameTest" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="Frog-Game" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../game3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../game1" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="c:/program files (x86)/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="c:\program files (x86)\nodejs\node.exe" />
@@ -274,17 +268,18 @@
       <workItem from="1484053246720" duration="13132000" />
       <workItem from="1484219604217" duration="19157000" />
       <workItem from="1484297533566" duration="17215000" />
+      <workItem from="1484557358584" duration="2564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49504000" />
+    <option name="totallyTimeSpent" value="52068000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1914" y="126" width="1936" height="1152" extended-state="0" />
+    <frame x="1914" y="115" width="1936" height="1152" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25799572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -319,6 +314,78 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/boot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/gameover.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/load.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/play.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/win.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/boot.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -427,7 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -482,7 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -510,30 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/gameover.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -542,10 +583,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/menu.js">
+    <entry file="file://$PROJECT_DIR$/map.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="660">
+          <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -558,10 +607,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/gameover.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="2" selection-start-column="8" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/play.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="819">
+          <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
           <folding />
         </state>
       </provider>

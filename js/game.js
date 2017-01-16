@@ -1,4 +1,4 @@
-var game = new Phaser.Game(640, 640, Phaser.CANVAS, 'gameDiv', {
+var game = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.CANVAS, 'gameDiv', {
     preload: this.preload,
     create: this.create,
     update: this.update,
