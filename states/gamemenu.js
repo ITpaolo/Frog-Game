@@ -31,8 +31,6 @@ GameMenu.prototype = {
     game.add.sprite(0, 0, 'menu-bg');
     game.add.existing(this.titleText);
 
-
-
     this.addMenuOption('Start', function () {
       game.state.start("Game");
 

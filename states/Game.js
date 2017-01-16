@@ -45,7 +45,6 @@ Game.prototype = {
         this.game.physics.enable(map, Phaser.Physics.ARCADE);
 
 
-
         layer = map.createLayer('level1');
         layer.resizeWorld();
         layer.wrap = true;
@@ -53,7 +52,6 @@ Game.prototype = {
         Floor = this.game.add.group();
         Floor.enableBody = true;
         this.game.physics.enable(Floor, Phaser.Physics.ARCADE);
-
 
         Frog = this.game.add.group();
         Frog.enableBody = true;
@@ -73,18 +71,13 @@ Game.prototype = {
         water = this.game.add.tileSprite(0, 150, 750, 850, 'water');
         water.animations.add('waves0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]);
 
-        var n = 0;
-        water.animations.play('waves' + n, 8, true);
+        var w = 0;
+        water.animations.play('waves' + w, 8, true);
 
         this.game.camera.follow(sprite, Phaser.Camera.FOLLOW_LOCKON, 0.1, 0.1);
 
         this.game.world.bringToTop(Floor);
         this.game.world.bringToTop(sprite);
-
-        stateText = game.add.text(game.world.centerX, game.world.centerY, ' ', {font: '60px Arial', fill: '#ff0000'});
-        stateText.anchor.setTo(0.9, 1.7);
-        stateText.visible = false;
-        stateText.fixedToCamera = true;
 
     },
 
@@ -141,36 +134,15 @@ Game.prototype = {
             }
         }
 
-        if (this.swipe.DIRECTION_UP.isDown) {
-            worldScale += 0.05;
-        }
-        else if (this.swipe.DIRECTION_UP.isDown) {
-            worldScale -= 0.05;
-        }
-
         if (this.checkOverlap(sprite, Floor)) {
             //
         }
         else {
-
             this.game.state.start("GameOver");
-            /*
-            sprite.kill();
-            stateText.text = " GAME OVER \n Click to restart";
-            stateText.visible = true;
-
-            game.input.onTap.addOnce(function () {
-                game.state.restart();
-            }, this);
-            */
         }
-
-
     },
 
     render: function () {
-
-
         game.time.advancedTiming = true;
         game.debug.text(game.time.fps, 10, 15, "#00ff00");
     }
