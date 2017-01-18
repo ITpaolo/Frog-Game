@@ -28,7 +28,8 @@ GameMenu.prototype = {
       music.play();
     }
     game.stage.disableVisibilityChange = true;
-    game.add.sprite(0, 0, 'menu-bg');
+    var menu = game.add.sprite(0, 0, 'menu-bg');
+    menu.scale.setTo(0.5);
     game.add.existing(this.titleText);
 
     this.addMenuOption('Start', function () {

@@ -52,11 +52,11 @@ Credits.prototype = {
   create: function () {
     this.stage.disableVisibilityChange = true;
     if (gameOptions.playMusic) {
-      musicPlayer.stop();
+      //musicPlayer.stop();
       musicPlayer = game.add.audio('exit');
       musicPlayer.play();
     }
-    var bg = game.add.sprite(0, 0, 'gameover-bg');
+    var bg = game.add.sprite(0, 0, 'options-bg');
     this.addCredit('Music', 'Kevin Macleod');
     this.addCredit('Developer', 'Paolo Chiavino');
     this.addCredit('Phaser.io', 'Powered By');
