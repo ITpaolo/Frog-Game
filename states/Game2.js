@@ -1,35 +1,6 @@
-var Game = function(game) {};
+var Game2 = function(game) {};
 
-Game.prototype = {
-
-    preload: function () {
-        this.optionCount = 1;
-    },
-
-    addMenuOption: function (text, callback) {
-        var optionStyle = {font: '30pt TheMinion', fill: 'white', align: 'left', stroke: 'rgba(0,0,0,0)', srokeThickness: 4};
-        var txt = game.add.text(game.world.centerX, (this.optionCount * 80) + 200, text, optionStyle);
-        txt.anchor.setTo(0.5);
-        txt.stroke = "rgba(0,0,0,0";
-        txt.strokeThickness = 4;
-        var onOver = function (target) {
-            target.fill = "#FEFFD5";
-            target.stroke = "rgba(200,200,200,0.5)";
-            txt.useHandCursor = true;
-        };
-        var onOut = function (target) {
-            target.fill = "white";
-            target.stroke = "rgba(0,0,0,0)";
-            txt.useHandCursor = false;
-        };
-        //txt.useHandCursor = true;
-        txt.inputEnabled = true;
-        txt.events.onInputUp.add(callback, this);
-        txt.events.onInputOver.add(onOver, this);
-        txt.events.onInputOut.add(onOut, this);
-
-        this.optionCount++;
-    },
+Game2.prototype = {
 
     create: function () {
 
@@ -39,13 +10,13 @@ Game.prototype = {
 
         this.game.stage.backgroundColor = "#4488AA";
 
-        map = this.game.add.tilemap('map');
+        map = this.game.add.tilemap('map2');
         map.addTilesetImage('water');
         map.setCollisionBetween(1, 99);
         this.game.physics.enable(map, Phaser.Physics.ARCADE);
 
 
-        layer = map.createLayer('level1');
+        layer = map.createLayer('level2');
         layer.resizeWorld();
         layer.wrap = true;
 
@@ -57,24 +28,24 @@ Game.prototype = {
         Frog.enableBody = true;
         this.game.physics.enable(Frog, Phaser.Physics.ARCADE);
 
-        portalRings2 = this.game.add.group();
-        portalRings2.enableBody = true;
-        this.game.physics.enable(portalRings2, Phaser.Physics.ARCADE);
+        portalRings1 = this.game.add.group();
+        portalRings1.enableBody = true;
+        this.game.physics.enable(portalRings1, Phaser.Physics.ARCADE);
 
-        map.createFromObjects('obj1', 1, 'floor', 0, true, false, Floor);
-        map.createFromObjects('obj1', 18, 'portalRings2', 0, true, false, portalRings2);
+        map.createFromObjects('obj2', 1, 'floor', 0, true, false, Floor);
+        map.createFromObjects('obj2', 18, 'portalRings1', 0, true, false, portalRings1);
 
         console.log('Anzahl Boden: ' + Floor.length);
 
-        sprite = this.game.add.sprite(300, 930, 'frog');
+        sprite = this.game.add.sprite(305, 865, 'frog');
         sprite.anchor.setTo(0.5, 0.5);
         this.game.physics.arcade.enable(sprite);
 
+        portalRings1.callAll('animations.add', 'animations', 'portalRings1', [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], 10, true);
+        portalRings1.callAll('animations.play', 'animations', 'portalRings1');
+
         water = this.game.add.tileSprite(0, 150, 750, 850, 'water');
         water.animations.add('waves0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]);
-
-        portalRings2.callAll('animations.add', 'animations', 'portalRings2', [0, 1, 2, 3, 4], 10, true);
-        portalRings2.callAll('animations.play', 'animations', 'portalRings2');
 
         var w = 0;
         water.animations.play('waves' + w, 8, true);
@@ -82,7 +53,7 @@ Game.prototype = {
         this.game.camera.follow(sprite, Phaser.Camera.FOLLOW_LOCKON, 0.1, 0.1);
 
         this.game.world.bringToTop(Floor);
-        this.game.world.bringToTop(portalRings2);
+        this.game.world.bringToTop(portalRings1);
         this.game.world.bringToTop(sprite);
 
     },
@@ -101,16 +72,9 @@ Game.prototype = {
         return Phaser.Rectangle.intersects(boundsA, boundsB);
     },
 
-    checkOverlap2: function (sprite, portalRings2) {
-        var boundsC = sprite.getBounds();
-        var boundsD = portalRings2.getBounds();
-
-        return Phaser.Rectangle.intersects(boundsC, boundsD);
-    },
-
     update: function () {
         this.game.physics.arcade.overlap(Floor, sprite, this.trap);
-        this.game.physics.arcade.overlap(portalRings2, sprite);
+
         var direction = this.swipe.check();
         if (direction !== null) {
             // case this.swipe.DIRECTION_UP: sprite.y -= 50; break;
@@ -148,18 +112,11 @@ Game.prototype = {
         }
 
         if (this.checkOverlap(sprite, Floor)) {
-            //
-        }
-        else {
-            this.game.state.start("GameOver");
-        }
-
-        if (this.checkOverlap2(sprite, portalRings2)) {
-            this.game.state.start("Game2");
-        }
-        else {
-            //
-        }
+         //
+         }
+         else {
+         this.game.state.start("GameOver");
+         }
     },
 
     render: function () {

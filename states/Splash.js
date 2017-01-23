@@ -8,7 +8,8 @@ Splash.prototype = {
     game.load.script('WebFont', 'vendor/webfontloader.js');
     game.load.script('gamemenu','states/GameMenu.js');
     game.load.script('game', 'states/Game.js');
-    game.load.script('gameover','states/GameOver.js');
+      game.load.script('game2','states/Game2.js');
+      game.load.script('gameover','states/GameOver.js');
     game.load.script('credits', 'states/Credits.js');
     game.load.script('options', 'states/Options.js');
   },
@@ -43,6 +44,7 @@ Splash.prototype = {
 
   preload: function () {
     game.load.tilemap('map', 'map.json', null, Phaser.Tilemap.TILED_JSON);
+    game.load.tilemap('map2', 'map2.json', null, Phaser.Tilemap.TILED_JSON);
     game.add.sprite(0, 0, 'stars');
     game.add.existing(this.logo).scale.setTo(0.5);
     game.add.existing(this.loadingBar);
@@ -60,6 +62,7 @@ Splash.prototype = {
 
     game.state.add("GameMenu",GameMenu);
     game.state.add("Game",Game);
+    game.state.add("Game2",Game2);
     game.state.add("GameOver",GameOver);
     game.state.add("Credits",Credits);
     game.state.add("Options",Options);
