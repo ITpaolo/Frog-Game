@@ -57,7 +57,7 @@ Game.prototype = {
         Frog.enableBody = true;
         this.game.physics.enable(Frog, Phaser.Physics.ARCADE);
 
-        map.createFromObjects('obj1', 2, 'floor', 0, true, false, Floor);
+        map.createFromObjects('obj1', 1, 'floor', 0, true, false, Floor);
 
         console.log('Anzahl Boden: ' + Floor.length);
 
