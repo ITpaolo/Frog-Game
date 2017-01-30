@@ -19,18 +19,6 @@
                 {
                  "gid":1,
                  "height":32,
-                 "id":2,
-                 "name":"floor",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":288,
-                 "y":895
-                }, 
-                {
-                 "gid":1,
-                 "height":32,
                  "id":3,
                  "name":"floor",
                  "rotation":0,
@@ -230,7 +218,7 @@
                  "visible":true,
                  "width":32,
                  "x":320,
-                 "y":929.666666666667
+                 "y":927.000333333333
                 }],
          "opacity":1,
          "properties":

@@ -81,6 +81,8 @@ Game.prototype = {
 
         this.game.camera.follow(sprite, Phaser.Camera.FOLLOW_LOCKON, 0.1, 0.1);
 
+        cursors = game.input.keyboard.createCursorKeys();
+
         this.game.world.bringToTop(Floor);
         this.game.world.bringToTop(portalRings2);
         this.game.world.bringToTop(sprite);
@@ -118,31 +120,39 @@ Game.prototype = {
 
                 case this.swipe.DIRECTION_UP:
                     sprite.y -= 57;
+                    score++;
                     break;
                 case this.swipe.DIRECTION_LEFT:
                     sprite.x -= 50;
+                    score++;
                     break;
                 case this.swipe.DIRECTION_RIGHT:
                     sprite.x += 50;
+                    score++;
                     break;
                 case this.swipe.DIRECTION_DOWN:
                     sprite.y += 57;
+                    score++;
                     break;
                 case this.swipe.DIRECTION_UP_LEFT:
                     sprite.y -= 50;
                     sprite.x -= 50;
+                    score++;
                     break;
                 case this.swipe.DIRECTION_UP_RIGHT:
                     sprite.y -= 50;
                     sprite.x += 50;
+                    score++;
                     break;
                 case this.swipe.DIRECTION_DOWN_LEFT:
                     sprite.y += 50;
                     sprite.x -= 50;
+                    score++;
                     break;
                 case this.swipe.DIRECTION_DOWN_RIGHT:
                     sprite.y += 50;
                     sprite.x += 50;
+                    score++;
                     break;
             }
         }
@@ -160,6 +170,8 @@ Game.prototype = {
         else {
             //
         }
+
+        console.log(score);
     },
 
     render: function () {

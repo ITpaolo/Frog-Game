@@ -82,41 +82,52 @@ Game2.prototype = {
 
                 case this.swipe.DIRECTION_UP:
                     sprite.y -= 57;
+                    score++;
                     break;
                 case this.swipe.DIRECTION_LEFT:
                     sprite.x -= 50;
+                    score++;
                     break;
                 case this.swipe.DIRECTION_RIGHT:
                     sprite.x += 50;
+                    score++;
                     break;
                 case this.swipe.DIRECTION_DOWN:
                     sprite.y += 57;
+                    score++;
                     break;
                 case this.swipe.DIRECTION_UP_LEFT:
                     sprite.y -= 50;
                     sprite.x -= 50;
+                    score++;
                     break;
                 case this.swipe.DIRECTION_UP_RIGHT:
                     sprite.y -= 50;
                     sprite.x += 50;
+                    score++;
                     break;
                 case this.swipe.DIRECTION_DOWN_LEFT:
                     sprite.y += 50;
                     sprite.x -= 50;
+                    score++;
                     break;
                 case this.swipe.DIRECTION_DOWN_RIGHT:
                     sprite.y += 50;
                     sprite.x += 50;
+                    score++;
                     break;
             }
         }
 
+
+        console.log(score);
+/*
         if (this.checkOverlap(sprite, Floor)) {
          //
          }
          else {
          this.game.state.start("GameOver");
-         }
+         }*/
     },
 
     render: function () {

@@ -91,7 +91,6 @@
   <properties>
    <property name="Collidable" type="bool" value="false"/>
   </properties>
-  <object id="2" name="floor" gid="1" x="288" y="895" width="32" height="32"/>
   <object id="3" name="floor" gid="1" x="335" y="844" width="32" height="32"/>
   <object id="4" name="floor" gid="1" x="287" y="799" width="32" height="32"/>
   <object id="5" name="floor" gid="1" x="331" y="750" width="32" height="32"/>
@@ -108,6 +107,6 @@
   <object id="52" gid="1" x="337.333" y="180" width="32" height="32"/>
   <object id="62" gid="1" x="285.333" y="128" width="32" height="32"/>
   <object id="63" gid="1" x="336" y="81.3333" width="32" height="32"/>
-  <object id="65" name="portalRings1" gid="18" x="320" y="929.667" width="32" height="32" rotation="180"/>
+  <object id="65" name="portalRings1" gid="18" x="320" y="927" width="32" height="32" rotation="180"/>
  </objectgroup>
 </map>
