@@ -62,7 +62,7 @@ GameOver.prototype = {
             localStorage.setItem('highscore',score);
         }
 
-        console.log(localStorage);
+        // console.log(localStorage);
 
         console.log('HS: ' + localStorage.getItem('highscore'));
         console.log('Your score is: ' + score);

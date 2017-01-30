@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c00a11ee-3c85-42ae-8827-41b8a7b70c73" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map2.json" afterPath="$PROJECT_DIR$/map2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map2.tmx" afterPath="$PROJECT_DIR$/map2.tmx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/states/Game.js" afterPath="$PROJECT_DIR$/states/Game.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/states/Game2.js" afterPath="$PROJECT_DIR$/states/Game2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/states/gameover.js" afterPath="$PROJECT_DIR$/states/gameover.js" />
     </list>
     <ignored path="test.iws" />
@@ -63,8 +56,8 @@
       <file leaf-file-name="gameover.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/states/gameover.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+            <state relative-caret-position="714">
+              <caret line="42" column="98" selection-start-line="42" selection-start-column="98" selection-end-line="42" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -300,18 +293,18 @@
       <workItem from="1485168777525" duration="6948000" />
       <workItem from="1485510180744" duration="4376000" />
       <workItem from="1485527241501" duration="3236000" />
-      <workItem from="1485767586431" duration="19738000" />
+      <workItem from="1485767586431" duration="21417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54945000" />
+    <option name="totallyTimeSpent" value="56624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27238807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27238807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -742,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/states/gameover.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+        <state relative-caret-position="714">
+          <caret line="42" column="98" selection-start-line="42" selection-start-column="98" selection-end-line="42" selection-end-column="98" />
           <folding />
         </state>
       </provider>
