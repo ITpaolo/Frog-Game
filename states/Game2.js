@@ -72,8 +72,16 @@ Game2.prototype = {
         return Phaser.Rectangle.intersects(boundsA, boundsB);
     },
 
+    checkOverlap2: function (sprite, portalRings1) {
+        var boundsC = sprite.getBounds();
+        var boundsD = portalRings1.getBounds();
+
+        return Phaser.Rectangle.intersects(boundsC, boundsD);
+    },
+
     update: function () {
         this.game.physics.arcade.overlap(Floor, sprite, this.trap);
+        this.game.physics.arcade.overlap(portalRings1, sprite, this.checkOverlap2);
 
         var direction = this.swipe.check();
         if (direction !== null) {
@@ -122,11 +130,21 @@ Game2.prototype = {
 
         console.log(score);
 
+/*
+        if (this.checkOverlap2(sprite, portalRings1)) {
+            game.state.start("GameMenu")
+        }
+        else {
+            //
+        }
+
+
         if (this.checkOverlap(sprite, Floor)) {
+            //
         }
          else {
          this.game.state.start("GameOver");
-         }
+         }*/
     },
 
     render: function () {

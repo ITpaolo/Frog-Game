@@ -9,7 +9,7 @@ Credits.prototype = {
   },
 
   addCredit: function(task, author) {
-    var authorStyle = { font: '40pt TheMinion', fill: 'white', align: 'center', stroke: 'rgba(0,0,0,0)', strokeThickness: 4};
+    var authorStyle = { font: '40pt TheMinion', fill: '#04B404', align: 'center', stroke: 'rgba(0,0,0,0)', strokeThickness: 4};
     var taskStyle = { font: '30pt TheMinion', fill: 'white', align: 'center', stroke: 'rgba(0,0,0,0)', strokeThickness: 4};
     var authorText = game.add.text(game.world.centerX, 1100, author, authorStyle);
     var taskText = game.add.text(game.world.centerX, 1150, task, taskStyle);
@@ -31,7 +31,7 @@ Credits.prototype = {
     txt.stroke = "rgba(0,0,0,0";
     txt.strokeThickness = 4;
     var onOver = function (target) {
-      target.fill = "#FEFFD5";
+      target.fill = "#04B404";
       target.stroke = "rgba(200,200,200,0.5)";
       txt.useHandCursor = true;
     };
