@@ -16,7 +16,7 @@ Main.prototype = {
     game.load.image('stars',    'assets/images/stars.jpg');
     game.load.image('loading',  'assets/images/loading.png');
     game.load.image('brand',    'assets/images/logo.png');
-    game.load.image('floor', 'assets/images/floor.png', 100, 100);
+    game.load.image('floor', 'assets/images/floor.png');
     game.load.spritesheet('portalRings2', 'assets/images/portalRings2.png', 32, 32);
     game.load.spritesheet('portalRings1', 'assets/images/portalRings1.png', 32, 32);
     game.load.spritesheet('water', 'assets/images/water_animated.png', 32, 32);

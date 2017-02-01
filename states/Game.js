@@ -121,6 +121,7 @@ Game.prototype = {
                 case this.swipe.DIRECTION_UP:
                     sprite.y -= 57;
                     score++;
+                    score++;
                     break;
                 case this.swipe.DIRECTION_LEFT:
                     sprite.x -= 50;

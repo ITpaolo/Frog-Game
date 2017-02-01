@@ -35,7 +35,7 @@ GameOver.prototype = {
     create: function () {
         var gameover = game.add.sprite(0, 0, 'gameover-bg');
         gameover.scale.setTo(0.5);
-        var titleStyle = {align: 'center', font: 'bold 60pt TheMinion', fill: '#FDFFB5'};
+        var titleStyle = {align: 'center', font: 'bold 60pt TheMinion', fill: '#04B404'};
         var scoreStyle = {align: 'center', font: 'italic 40pt arial', fill: '#FF0000'};
         var highscoreStyle = {align: 'center', font: 'bold 40pt bebas', fill: '#DF7401'};
         var text = game.add.text(game.world.centerX, 100, "Game Over", titleStyle);

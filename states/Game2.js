@@ -121,13 +121,12 @@ Game2.prototype = {
 
 
         console.log(score);
-/*
+
         if (this.checkOverlap(sprite, Floor)) {
-         //
-         }
+        }
          else {
          this.game.state.start("GameOver");
-         }*/
+         }
     },
 
     render: function () {

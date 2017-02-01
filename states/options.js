@@ -3,7 +3,7 @@ var Options = function(game) {};
 Options.prototype = {
 
   menuConfig: {
-    className: "inverse",
+    //className: "inverse",
     startY: 260,
     startX: "center"
   },
@@ -12,7 +12,7 @@ Options.prototype = {
   init: function () {
     this.titleText = game.make.text(game.world.centerX, 100, "Options", {
       font: 'bold 60pt TheMinion',
-      fill: '#FDFFB5',
+      fill: '#04B404',
       align: 'center'
     });
     this.titleText.setShadow(3, 3, 'rgba(0,0,0,0.5)', 5);

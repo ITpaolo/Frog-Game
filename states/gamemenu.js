@@ -11,7 +11,7 @@ GameMenu.prototype = {
   init: function () {
     this.titleText = game.make.text(game.world.centerX, 100, "Frog Game", {
       font: 'bold 60pt TheMinion',
-      fill: '#FDFFB5',
+      fill: '#04B404',
       align: 'center'
     });
     this.titleText.setShadow(3, 3, 'rgba(0,0,0,0.5)', 5);
@@ -34,7 +34,6 @@ GameMenu.prototype = {
 
     this.addMenuOption('Start', function () {
       game.state.start("Game");
-
     });
     this.addMenuOption('Options', function () {
       game.state.start("Options");
