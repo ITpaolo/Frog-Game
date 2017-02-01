@@ -52,7 +52,6 @@ Game2.prototype = {
 
         this.game.camera.follow(sprite, Phaser.Camera.FOLLOW_LOCKON, 0.1, 0.1);
 
-        this.game.world.bringToTop(Floor);
         this.game.world.bringToTop(portalRings1);
         this.game.world.bringToTop(sprite);
 
@@ -130,7 +129,7 @@ Game2.prototype = {
 
         console.log(score);
 
-/*
+
         if (this.checkOverlap2(sprite, portalRings1)) {
             game.state.start("GameMenu")
         }
@@ -144,7 +143,7 @@ Game2.prototype = {
         }
          else {
          this.game.state.start("GameOver");
-         }*/
+         }
     },
 
     render: function () {

@@ -69,6 +69,7 @@ Splash.prototype = {
     game.state.add("Options",Options);
   },
 
+
   addGameMusic: function () {
     music = game.add.audio('dangerous');
     music.loop = true;

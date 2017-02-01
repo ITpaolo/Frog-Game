@@ -9,7 +9,7 @@ GameMenu.prototype = {
   },
 
   init: function () {
-    this.titleText = game.make.text(game.world.centerX, 100, "Frog Game", {
+    this.titleText = game.make.text(game.world.centerX, 100, "- FROG GAME -", {
       font: 'bold 60pt TheMinion',
       fill: '#04B404',
       align: 'center'

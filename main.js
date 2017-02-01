@@ -23,7 +23,9 @@ Main.prototype = {
     game.load.script('polyfill',   'lib/polyfill.js');
     game.load.script('utils',   'lib/utils.js');
     game.load.script('splash',  'states/Splash.js');
-    game.load.script('swipe',  'swipe.js');
+    game.load.script('swipe',  'plugins/swipe.js');
+    game.load.script('ScreenShake', 'plugins/ScreenShake.js');
+    game.load.script('SaveCPU', 'plugins/SaveCPU.js');
   },
 
   create: function () {

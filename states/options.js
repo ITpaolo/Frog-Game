@@ -10,7 +10,7 @@ Options.prototype = {
 
 
   init: function () {
-    this.titleText = game.make.text(game.world.centerX, 100, "Options", {
+    this.titleText = game.make.text(game.world.centerX, 100, "- OPTIONS -", {
       font: 'bold 60pt TheMinion',
       fill: '#04B404',
       align: 'center'
