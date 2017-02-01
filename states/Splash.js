@@ -21,9 +21,10 @@ Splash.prototype = {
   },
   // varios freebies found from google image search
   loadImages: function () {
-    game.load.image('menu-bg', 'assets/images/menu-bg.jpg');
+    /*game.load.image('menu-bg', 'assets/images/menu-bg.jpg');
     game.load.image('options-bg', 'assets/images/options-bg.jpg');
     game.load.image('gameover-bg', 'assets/images/gameover-bg.jpg');
+    game.load.image('loading-bg',    'assets/images/stars.jpg');*/
   },
 
   loadFonts: function () {
@@ -45,7 +46,7 @@ Splash.prototype = {
   preload: function () {
     game.load.tilemap('map', 'map.json', null, Phaser.Tilemap.TILED_JSON);
     game.load.tilemap('map2', 'map2.json', null, Phaser.Tilemap.TILED_JSON);
-    game.add.sprite(0, 0, 'stars');
+    game.add.sprite(0, 0, 'loading-bg');
     game.add.existing(this.logo).scale.setTo(0.5);
     game.add.existing(this.loadingBar);
     game.add.existing(this.status);

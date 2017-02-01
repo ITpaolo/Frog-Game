@@ -10,9 +10,9 @@ Credits.prototype = {
 
   addCredit: function(task, author) {
     var authorStyle = { font: '40pt TheMinion', fill: '#04B404', align: 'center', stroke: 'rgba(0,0,0,0)', strokeThickness: 4};
-    var taskStyle = { font: '30pt TheMinion', fill: 'white', align: 'center', stroke: 'rgba(0,0,0,0)', strokeThickness: 4};
-    var authorText = game.add.text(game.world.centerX, 1100, author, authorStyle);
-    var taskText = game.add.text(game.world.centerX, 1150, task, taskStyle);
+    var taskStyle = { font: '30pt TheMinion', fill: '#00ED00', align: 'center', stroke: 'rgba(0,0,0,0)', strokeThickness: 4};
+    var authorText = game.add.text(game.world.centerX, window.innerHeight+50, author, authorStyle);
+    var taskText = game.add.text(game.world.centerX, window.innerHeight+100, task, taskStyle);
     authorText.anchor.setTo(0.5);
     authorText.stroke = "rgba(0,0,0,0)";
     authorText.strokeThickness = 4;

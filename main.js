@@ -13,7 +13,6 @@ var game = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.AUTO, '
 Main.prototype = {
 
   preload: function () {
-    game.load.image('stars',    'assets/images/stars.jpg');
     game.load.image('loading',  'assets/images/loading.png');
     game.load.image('brand',    'assets/images/logo.png');
     game.load.image('floor', 'assets/images/floor.png');
