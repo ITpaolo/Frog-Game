@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c00a11ee-3c85-42ae-8827-41b8a7b70c73" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/swipe.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/states/Game.js" afterPath="$PROJECT_DIR$/states/Game.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/states/Game2.js" afterPath="$PROJECT_DIR$/states/Game2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/states/Splash.js" afterPath="$PROJECT_DIR$/states/Splash.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/states/gamemenu.js" afterPath="$PROJECT_DIR$/states/gamemenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/states/options.js" afterPath="$PROJECT_DIR$/states/options.js" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,8 +56,8 @@
       <file leaf-file-name="Game.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/states/Game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="90" column="71" selection-start-line="90" selection-start-column="71" selection-end-line="90" selection-end-column="71" />
+            <state relative-caret-position="680">
+              <caret line="165" column="55" selection-start-line="165" selection-start-column="55" selection-end-line="165" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -294,12 +286,12 @@
       <workItem from="1485527241501" duration="3236000" />
       <workItem from="1485767586431" duration="22088000" />
       <workItem from="1485879012950" duration="747000" />
-      <workItem from="1485938133335" duration="18921000" />
+      <workItem from="1485938133335" duration="19035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76963000" />
+    <option name="totallyTimeSpent" value="77077000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,8 +738,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/states/Game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="90" column="71" selection-start-line="90" selection-start-column="71" selection-end-line="90" selection-end-column="71" />
+        <state relative-caret-position="680">
+          <caret line="165" column="55" selection-start-line="165" selection-start-column="55" selection-end-line="165" selection-end-column="55" />
           <folding />
         </state>
       </provider>
