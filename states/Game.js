@@ -95,6 +95,7 @@ Game.prototype = {
         var tween = game.add.tween(Floor).to({kill: true}, 1000, Phaser.Easing.Linear.None, true);
         tween.onComplete.add(function () {
             Floor.destroy();
+            game.plugins.screenShake.shake(30);
         });
     },
 
@@ -124,46 +125,46 @@ Game.prototype = {
                 case this.swipe.DIRECTION_UP:
                     sprite.y -= 57;
                     score++;
-                    game.plugins.screenShake.shake(30);
+                    // game.plugins.screenShake.shake(30);
                     break;
                 case this.swipe.DIRECTION_LEFT:
                     sprite.x -= 50;
                     score++;
-                    game.plugins.screenShake.shake(30);
+                    // game.plugins.screenShake.shake(30);
                     break;
                 case this.swipe.DIRECTION_RIGHT:
                     sprite.x += 50;
                     score++;
-                    game.plugins.screenShake.shake(30);
+                    // game.plugins.screenShake.shake(30);
                     break;
                 case this.swipe.DIRECTION_DOWN:
                     sprite.y += 57;
                     score++;
-                    game.plugins.screenShake.shake(30);
+                    // game.plugins.screenShake.shake(30);
                     break;
                 case this.swipe.DIRECTION_UP_LEFT:
                     sprite.y -= 50;
                     sprite.x -= 50;
                     score++;
-                    game.plugins.screenShake.shake(30);
+                    // game.plugins.screenShake.shake(30);
                     break;
                 case this.swipe.DIRECTION_UP_RIGHT:
                     sprite.y -= 50;
                     sprite.x += 50;
                     score++;
-                    game.plugins.screenShake.shake(30);
+                    // game.plugins.screenShake.shake(30);
                     break;
                 case this.swipe.DIRECTION_DOWN_LEFT:
                     sprite.y += 50;
                     sprite.x -= 50;
                     score++;
-                    game.plugins.screenShake.shake(30);
+                    // game.plugins.screenShake.shake(30);
                     break;
                 case this.swipe.DIRECTION_DOWN_RIGHT:
                     sprite.y += 50;
                     sprite.x += 50;
                     score++;
-                    game.plugins.screenShake.shake(30);
+                    // game.plugins.screenShake.shake(30);
                     break;
             }
         }
