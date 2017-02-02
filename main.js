@@ -25,7 +25,6 @@ Main.prototype = {
     game.load.script('splash',  'states/Splash.js');
     game.load.script('swipe',  'plugins/swipe.js');
     game.load.script('ScreenShake', 'plugins/ScreenShake.js');
-    game.load.script('SaveCPU', 'plugins/SaveCPU.js');
   },
 
   create: function () {

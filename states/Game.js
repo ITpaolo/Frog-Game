@@ -88,7 +88,6 @@ Game.prototype = {
         this.game.world.bringToTop(sprite);
 
         game.plugins.screenShake = game.plugins.add(Phaser.Plugin.ScreenShake);
-        game.plugins.saveCPU = game.plugins.add(Phaser.Plugin.SaveCPU);
     },
 
     trap: function (sprite, Floor) {
